@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script type="text/javascript">
+
+    var source = "<table cellspacing='0' cellpadding='5' border='1'><tr bgcolor='#ff8300'><td colspan='2' bgcolor='#ff8300'><div>多乐士</div>西瓜"
+        + "</td></tr></table>嘻嘻";
+
+    // 过滤指定的html标签, 保留文字
+    var regExp1 = new RegExp("</?table[^<]*>", "g");
+    var regExp2 = new RegExp("</?tr[^<]*>", "g");
+    var regExp3 = new RegExp("</?td[^<]*>", "g");
+    console.log(source.replace(regExp1, "").replace(regExp2, "").replace(regExp3, ""));
+
+    // 过滤所有html标签, 保留文字
+    var totalHtml = new RegExp("</?[^>]+>", "g");
+    console.log(source.replace(totalHtml, ""));
+
+    // 过滤td标签(包含文字)
+    var td = new RegExp("<td[^/]*>(.*?)</td>", "g");
+    console.log(source.replace(td, ""));
+</script>
+<body>
+
+</body>
+</html>
