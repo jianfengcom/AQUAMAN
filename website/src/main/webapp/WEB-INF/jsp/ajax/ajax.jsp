@@ -6,8 +6,6 @@
     <title>Title</title>
 
     <script src="http://js.3conline.com/min2/temp/v2/lib-zepto,plugin-lazy.js" charset="utf-8"></script>
-    <script src="//js.3conline.com/wap/pconline/2018/js/swiper.js" charset="utf-8"></script>
-    <%--<script src="//js.3conline.com/pconlinenew/data/app/2019/best_muying/js/muying.js"></script>--%>
 
     <script type="text/javascript">
         // 参考 https://www.cnblogs.com/tylerdonet/p/3520862.html
