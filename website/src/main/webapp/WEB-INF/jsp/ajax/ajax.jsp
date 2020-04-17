@@ -5,16 +5,20 @@
 <head>
     <title>Title</title>
 
+    <script src="http://js.3conline.com/min2/temp/v2/lib-zepto,plugin-lazy.js" charset="utf-8"></script>
     <script src="//js.3conline.com/wap/pconline/2018/js/swiper.js" charset="utf-8"></script>
+    <%--<script src="//js.3conline.com/pconlinenew/data/app/2019/best_muying/js/muying.js"></script>--%>
 
     <script type="text/javascript">
+        // 参考 https://www.cnblogs.com/tylerdonet/p/3520862.html
+
         function load() {
             $.ajax({
                 type: "POST",
                 url: "https://best.pconline.com.cn/intf/app/baby/getTopicTagsAndTypes.jsp",
-                data: {},
-                dataType: 'json',
-                crossDomain:true,
+                data: {}, // 发送给服务器的数据
+                dataType: 'json', // 预期服务器返回的数据类型
+                crossDomain:true, // 跨域
                 success: function (res) {
                     if(res.status==0){
                         renderArea(res.typeList,res.tags); // typeList, tags 为借口返回的属性

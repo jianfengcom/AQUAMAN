@@ -18,6 +18,15 @@
     </properties>
 
     <dependencies>
+        <!-- 热部署 -->
+        <!-- optional: 依赖传递 -->
+        <!-- scope: 表示为当前依赖参与项目的编译、测试和运行阶段 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <optional>true</optional>
+        </dependency>
+
         <!-- @RequestMapping -->
         <dependency>
             <groupId>org.springframework.boot</groupId>

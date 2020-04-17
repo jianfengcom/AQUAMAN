@@ -1,0 +1,15 @@
+1. springboot 支持 jsp
+    关键字: spring.mvc.view.prefix
+
+2. JSP页面无法访问 解决方案
+    关键字: 内置tomcat的项目根目录
+
+3. 热部署
+    关键字: devtools
+
+4. jsp 热部署
+    关键字: 与 devtools 无关
+
+4. ajax
+    关键字: 网络请求不成功
+
