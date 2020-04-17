@@ -5,6 +5,7 @@
     <modules>
         <module>webapp</module>
         <module>website</module>
+        <module>manage</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
