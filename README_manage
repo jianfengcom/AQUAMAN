@@ -1,3 +1,5 @@
+## 源于maven quickstart ##
+
 1. 发布/监听 事件
     关键字: SendMsgEvent
 
