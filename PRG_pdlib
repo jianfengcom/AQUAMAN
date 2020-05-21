@@ -1,0 +1,17 @@
+# 添加
+http://pdadmin.pconline.com.cn:9093/product/brandRepairOutlets.do?
+method=addBatch&id=&provinceId=2&cityId=424&pBrandId=49956&name=%D7%C4%C4%BE%C4%F1%BC%D2%B5%E7%CE%AC%D0%DE
+&status=1&thirdFlag=0&orderKey=999&repairPhone=400-018-8151
+&repairAddress=%D6%BB%CC%E1%B9%A9%C9%CF%C3%C5%B7%FE%CE%F1%A3%A8%B0%FC%C0%A8%CE%AC%D0%DE%A1%A2%B0%B2%D7%B0%A3%A9
+
+method: addBatch
+id:
+provinceId: 2
+cityId: 424
+pBrandId: 49956
+name: (unable to decode value)
+status: 1
+thirdFlag: 0
+orderKey: 999
+repairPhone: 400-018-8151
+repairAddress: (unable to decode value)
