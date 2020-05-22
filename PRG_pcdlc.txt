@@ -17,6 +17,12 @@ http://newplay.pconline.com.cn/admin/sendToBaiduJiegouhuaRightNow.do?masterId=49
 
 [2020-05-22 14:23:25.328] {"code":200,"msg":"push success, maybe has a few delay","recv_num":1,"id":159012860528986341}
 
+新日志
+terInfo(BeianDownLoadService.java:459): ####masterIds=[56021]
+[2020-05-22 15:26:16.093] [INFO] 2020-05-22 15:26:16,092 --> [http-app-a-8080-10$1540334770] cn.pconline.pcdlc.service.BeianDownLoadService.batchBaiduSyncMasterInfo(BeianDownLoadService.java:460): ####结构推####appJson={"inLanguage":"简体中文","dateModified":"2020-05-22","operatingSystem":"WinXP/Win2003/Vista/Win8/Win7","alias":["好压压缩软件官方下载"],"downloadCount":9420319,"provider":"太平洋下载","downloadUrl":"http://dl.pconline.com.cn/download/56021-1.html","iconUrlUrl":"http://imgrt.pconline.com.cn/images/upload/upc/tx/pcdlc/1611/22/c0/spcgroup/center_121x75-qua_95/30350154_1479801265690.jpg","version":"6.0.2.10995 官方版","id":"http://dl.pconline.com.cn/download/56021.html","fileSize":18.3,"author":"好压","description":"2345好压压缩软件HaoZip是一款完全免费的新一代压缩软件。2345好压软件相比于其它压缩软件拥有占用更少的系统资源。好压软件有更好的兼容性，压缩率比较高等等优势。太平洋下载中心为您提供2345好压官方下载。","name":"2345好压","softwareVersion":"","license":"免费"}
+[2020-05-22 15:26:16.093]
+[2020-05-22 15:26:16.653] {"code":200,"msg":"push success, maybe has a few delay","recv_num":1,"id":159013237664180078}
+
 报错：
 https://dl.pconline.com.cn/download/359018-1.html
 
