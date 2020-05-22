@@ -4,6 +4,19 @@ http://newplay.pconline.com.cn/admin/sendToBaiduRightNow.do?masterId=49933
 结构化推
 http://newplay.pconline.com.cn/admin/sendToBaiduJiegouhuaRightNow.do?masterId=49933
 
+日志
+[2020-05-22 10:43:29.827] {"code":200,"msg":"push success, maybe has a few delay","recv_num":1,"id":159011540980932092}
+[2020-05-22 11:25:38.470] {"code":200,"msg":"push success, maybe has a few delay","recv_num":1,"id":159011793848328660}
+[2020-05-22 11:36:52.529] {"code":200,"msg":"push success, maybe has a few delay","recv_num":1,"id":159011861254198956}
+[2020-05-22 11:58:56.482] {"code":200,"msg":"push success, maybe has a few delay","recv_num":1,"id":159011993650801570}
+
+[2020-05-22 13:51:25.099] [INFO] 2020-05-22 13:51:25,098 --> [http-app-a-8080-4$224138837] cn.pconline.pcdlc.web.filter.LoginFilter.doFilter(LoginFilter.java:42): req uri: http://newplay.pconline.com.cn/admin/sendToBaiduJiegouhuaRightNow.do ; clientIp: 192.168.18.5, 14.23.152.218
+[2020-05-22 13:51:25.490] {"code":200,"msg":"push success, maybe has a few delay","recv_num":1,"id":159012668548366092}
+[2020-05-22 13:51:37.231] [INFO] 2020-05-22 13:51:37,231 --> [http-app-a-8080-18$91899136] cn.pconline.pcdlc.web.filter.LoginFilter.doFilter(LoginFilter.java:42): req uri: http://newplay.pconline.com.cn/admin/sendToBaiduJiegouhuaRightNow.do ; clientIp: 192.168.18.5, 14.23.152.218
+[2020-05-22 13:51:37.435] {"code":200,"msg":"push success, maybe has a few delay","recv_num":1,"id":159012669743649226}
+
+[2020-05-22 14:23:25.328] {"code":200,"msg":"push success, maybe has a few delay","recv_num":1,"id":159012860528986341}
+
 报错：
 https://dl.pconline.com.cn/download/359018-1.html
 
