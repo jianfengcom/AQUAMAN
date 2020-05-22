@@ -1,3 +1,9 @@
+实时推送
+http://newplay.pconline.com.cn/admin/sendToBaiduRightNow.do?masterId=49933
+
+结构化推
+http://newplay.pconline.com.cn/admin/sendToBaiduJiegouhuaRightNow.do?masterId=49933
+
 报错：
 https://dl.pconline.com.cn/download/359018-1.html
 
@@ -28,3 +34,7 @@ c9bb158cb79d4d74f772096eafac9b0e.exe
 表演真正的技术
 https://dlc2.pconline.com.cn/filedown3.jsp?dlid=2545914&linkid=313273856&softname=pconline1563268504755_17@1000254591413273853.exe
 https://dlc2.pconline.com.cn/filedown3.jsp?dlid=2545914&linkid=313273856&softname=pconline1563268504755_17@1000254591413273853.exe
+
+# MAC
+https://itunes.apple.com/cn/app/readiris-15/id1070209434?mt=12
+https://dlc2.pconline.com.cn/filedown3_2770809_113849099/Lk4QlmdP/id1070209434?mt=12_17@1000277080913849099.exe
