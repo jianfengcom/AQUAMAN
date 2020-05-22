@@ -23,6 +23,14 @@ terInfo(BeianDownLoadService.java:459): ####masterIds=[56021]
 [2020-05-22 15:26:16.093]
 [2020-05-22 15:26:16.653] {"code":200,"msg":"push success, maybe has a few delay","recv_num":1,"id":159013237664180078}
 
+
+[2020-05-22 15:32:36.975] [INFO] 2020-05-22 15:32:36,974 --> [http-app-a-8080-11$1672272319] cn.pconline.pcdlc.service.BeianDownLoadService.batchBaiduSyncMasterInfo(BeianDownLoadService.java:459): ####masterIds=[381508]
+[2020-05-22 15:32:36.977] [INFO] 2020-05-22 15:32:36,976 --> [http-app-a-8080-11$1672272319] cn.pconline.pcdlc.service.BeianDownLoadService.batchBaiduSyncMasterInfo(BeianDownLoadService.java:460): ####结构推####appJson={"inLanguage":"简体中文","dateModified":"2020-05-22","operatingSystem":"Win2000/WinXP/Win2003/Win7","alias":["梵讯房屋中介管理软件"],"downloadCount":7462,"provider":"太平洋下载","downloadUrl":"http://dl.pconline.com.cn/download/381508-1.html","iconUrlUrl":"http://imgrt.pconline.com.cn/images/upload/upc/tx/pcdlc/1611/25/c0/spcgroup/center_121x75-qua_95/30533342_1480059306587_120x75.jpg","version":"6.410 正式版","id":"http://dl.pconline.com.cn/download/381508.html","fileSize":242.15,"author":"官方网站","description":"梵讯房屋管理系统是一款为中小房产中介，独立经纪人量身打造的一款集房源客源管理，信息共享，同城合作和企业管理的免费房产中介软件。太平洋下载中心为您提供梵讯房屋管理系统官方下载。本站提供梵讯房屋管理系统下载。","name":"梵讯房屋管理系统","softwareVersion":"","license":"免费"}
+[2020-05-22 15:32:36.977]
+[2020-05-22 15:32:37.106] {"code":200,"msg":"push success, maybe has a few delay","recv_num":1,"id":159013275710457533}
+
+select count(dl_master_id) from dl_master_info where `status` = 1 and closed = 0
+
 报错：
 https://dl.pconline.com.cn/download/359018-1.html
 
