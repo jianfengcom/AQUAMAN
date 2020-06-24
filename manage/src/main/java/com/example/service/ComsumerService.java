@@ -13,36 +13,35 @@ public class ComsumerService {
     @Test
     public void test(){
         List<BrandExpand> result = new ArrayList<>();
-
         Brand brand = new Brand(3L, "飞机");
         BrandExpand brandExpand = new BrandExpand(3L, "沈阳飞机工业集团");
 
         Long brandId = 3L;
-        handle(brandId, (b, be) -> {
-            if (brandId == b.getBrandId()) {
-                b.setBrandName(brand.getBrandName());
-                be.setCompany(brandExpand.getCompany());
+        handle(brandId, (b,  be) -> {
+            if (b.getBrandId() == brandId) {
+                be.setCompany(brandExpand.getCompany() + "2");
             }
             result.add(be);
         });
-
         result.add(brandExpand);
-        // 按 brandId 顺序, 加上reversed变倒序
+
         result.sort(Comparator.comparingLong(BrandExpand::getBrandId).reversed());
         System.out.println(result);
     }
 
+    // brandId -> brand brandExpand, 收集
+
     private void handle(Long brandId, Comsumer<Brand, BrandExpand> comsumer) {
-        // ... 根据 brandId 生成 Brand, BrandExpand
+        // brandId -> brand brandExpand
         Brand brand = new Brand();
         brand.setBrandId(3L);
 
         BrandExpand brandExpand = new BrandExpand();
-        brandExpand.setBrandId(7L );
+        brandExpand.setBrandId(7L);
         comsumer.apply(brand, brandExpand);
     }
 
-    private static interface Comsumer<A, B>{
+    private static interface Comsumer<A, B> {
         void apply(A a, B b);
     }
 }
